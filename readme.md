@@ -1,4 +1,7 @@
 # args
+This is a modified version for personal usage of Yang Zhou. 
+## Why
+In some winxp system require('child_process') will terminate the process itself and there's no way to avoid this problem. So we eliminate the dependencies of child_process from args by remove it from 'lib/utils' file.
 
 [![Build Status](https://travis-ci.org/leo/args.svg?branch=master)](https://travis-ci.org/leo/args)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
