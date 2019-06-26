@@ -1,5 +1,7 @@
 # args
-This is a modified version for personal usage of Yang Zhou. 
+
+* This is a modified version for personal usage of Yang Zhou. *
+
 ## Why
 In some winxp system require('child_process') will terminate the process itself and there's no way to avoid this problem. So we eliminate the dependencies of child_process from args by remove it from 'lib/utils' file.
 
